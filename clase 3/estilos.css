@@ -1,0 +1,12 @@
+.textshadow h1{
+	text-shadow:1px 1px 1px #f00;
+}
+
+
+#caparedonda{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+}

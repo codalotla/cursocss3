@@ -1,0 +1,23 @@
+article{
+	columns:3;
+	-webkit-columns:3;
+	/*column-width:150px;
+	-webkit-column-width:150px;*/
+	column-gap:50px;
+	-webkit-column-gap:50px;
+	column-rule:1px solid #ccc;
+	-webkit-column-rule:2px dotted #ccc;
+	text-align: justify;
+}
+
+h1{
+	column-span:all;
+	-webkit-column-span:all;
+	font-size: 30px;
+	text-align: center;
+}
+
+main{
+	width: 1000px;
+	margin:60px auto 0 auto;
+}

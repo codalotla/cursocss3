@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Compatibilidad en navegadores: Modernizr, Prefixfree</title>
+	<link rel="stylesheet" href="estilos.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="modernizr.custom.85600.js"></script>
+</head>
+<body>
+	<h1>Hola, este texto tiene sombra</h1>
+	<script type="text/javascript">
+		Modernizr.load({
+			test: Modernizr.textshadow,
+			nope: ["jquery.textshadow.js","jquery.textshadow.css","funciones-textshadow.js"]
+		});
+	</script>
+</body>
+</html>

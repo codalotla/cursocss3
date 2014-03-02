@@ -1,0 +1,66 @@
+/*
+etiqueta{
+	nombreinstruccion: nombrevalor;
+}
+
+
+CSS para clases
+
+nombreetiqueta.nombreclase{
+	nombreinstruccion: nombrevalor;
+}
+
+
+
+CSS para ids
+
+#nombreid{
+	nombreinstruccion: nombrevalor;
+}
+
+*/
+
+
+h1{
+	color: red;
+}
+
+main{
+	float: left;
+	width: 60%;
+}
+
+main article{
+	background: #00f;
+	border:3px solid black;
+	padding: 15px;
+	margin-bottom:25px;
+	overflow: hidden;
+	position: relative;
+}
+
+main article a.seguirleyendo{
+	color: red;
+	background: #333;
+	padding:12px;
+	position: absolute;
+	bottom:10px;
+	right:20px;
+}
+
+#lateral{
+	float: right;
+	width: 25%;
+}
+
+#menu li{
+	display: inline;
+	padding: 0 15px 0 15px;
+}
+
+
+#menu li a{
+	color: green;
+	text-decoration: none;
+}
+

@@ -1,0 +1,58 @@
+/*
+etiqueta:pseudoclase{
+	
+}
+etiqueta::pseudoelemento{
+	
+}
+
+:hover
+:visited
+:focus
+:first-child
+:last-child
+:nth-child(n) 	
+:nth-of-type(n)
+:not(nombreetiqueta)
+
+*/
+
+#menu li{
+	display: inline;
+	padding: 0 15px;
+	background: red;
+}
+
+#menu li:hover{
+	background: green;
+}
+
+#menu li:hover a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#menu li a:visited{
+	color: #6c6c6c;
+}
+
+input[type="text"]:focus{
+	background: yellow;
+	color: red;
+}
+
+article p:nth-child(2){
+	font-size: 20px;
+}
+
+article *:not(div){
+	background: red;
+}
+
+h1{
+	color: black !important;
+}
+
+h1{
+	color: blue;
+}

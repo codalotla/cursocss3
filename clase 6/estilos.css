@@ -1,0 +1,37 @@
+/*
+
+etiqueta::pseudoelemento{
+	
+}
+
+::first-letter
+::first-line
+::before
+::after
+::selection
+
+*/
+
+h1::first-letter{
+	font-size: 38px;
+	background: green;
+	color: #f00;
+}
+
+p::first-line{
+	color: #f00;
+}
+
+a.regresar::before{
+	content: "Regresar";
+}
+
+a.siguiente::after{
+	content: url(flecha.jpg);
+	float: right;
+}
+
+p::selection{
+	color: blue;
+	background: yellow;
+}

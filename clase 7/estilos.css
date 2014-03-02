@@ -1,0 +1,41 @@
+#redondo{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	background: red;
+	border: 3px solid blue;
+	padding: 20px;
+	/*border-top-right-radius:80px;
+	-webkit-border-top-right-radius:80px;
+	border-bottom-left-radius: 80px;
+	-webkit-border-bottom-left-radius: 80px;*/
+}
+
+#sombra{
+	background: red;
+	border: 3px solid blue;
+	padding: 20px;
+	width: 50%;
+	margin: 20px;
+	box-shadow: 10px 10px 20px 10px green;
+	-webkit-box-shadow: 10px 10px 20px 10px green;
+	-moz-box-shadow: 10px 10px 20px 10px green;
+}
+
+h1#textshadow{
+	text-shadow:4px 0px 6px #3c3c3c;
+	-webkit-text-shadow:4px 0px 6px #3c3c3c;
+}
+
+#degradado{
+	background: linear-gradient(210deg,blue,red,yellow,green);
+	color: #fff;
+	padding:15px;
+	font-size: 18px;
+	width: 70%;
+	border-radius: 15px;
+}
+
+#filtro{
+	-webkit-filter: drop-shadow(50px 50px 20px black) hue-rotate(300deg) invert(0.6) opacity(0.5) saturate(6.8) sepia(0.2);
+}

@@ -1,0 +1,75 @@
+/*
+transform: rotate(deg)  scale(2)  skew(deg,deg) translate(x,y)
+			translateX, translateY, scaleX, scaleY
+
+
+#capa{
+	background: red;
+	width: 150px;
+	height: 80px;
+	position: absolute;
+	top: 45%;
+	left: 0%;
+	transition:all 8s linear;
+	-webkit-transition:all 8s linear;
+}
+
+#capa:hover{
+	transform: translateX(1300px);
+	-webkit-transform: translateX(1300px);
+}
+
+*/
+
+ul#galeria{
+	margin:50px;
+}
+
+ul#galeria li{
+	display: inline-block;
+	width:150px;
+	height:100px;
+	padding:40px;
+	cursor: pointer;
+	border-radius: 15px;
+	transition: all 1s linear;
+	-webkit-transition: all 1s linear;
+}
+
+ul#galeria li img{
+	width:150px;
+	margin:0 auto;
+	transition: all 1s linear;
+	-webkit-transition: all 1s linear;
+}
+
+ul#galeria li:hover{
+	background: #ccc;
+}
+
+ul#galeria li:hover img{
+	transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+}
+
+.boton{
+	background: blue;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	height: 30px;
+	width: 120px;
+	padding:10px;
+	text-align: center;
+	margin:0 auto;
+	transition:all 1s linear;
+	-webkit-transition:all 1s linear;
+	border-radius: 15px;
+	box-shadow: 2px 3px 2px 1px #ccc;
+}
+
+.boton:hover{
+	background: red;
+	transform:rotate(720deg);
+	-webkit-transform:rotate(720deg);
+}

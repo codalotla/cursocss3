@@ -1,0 +1,1 @@
+$('h1').textshadow("1px 1px 1px #000");

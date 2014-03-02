@@ -1,0 +1,7 @@
+body{
+	background:url(css3.png) 97% bottom no-repeat,
+	url(pattern.png) repeat,
+	linear-gradient(90deg,red,blue);
+	height: 600px;
+	background-size: 120px,auto,auto;
+}

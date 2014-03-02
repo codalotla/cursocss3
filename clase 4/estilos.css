@@ -1,0 +1,26 @@
+/*
+
+Selectores
++  adyacentes
+~  hermanos
+>  hijos directos
+*  reemplaza cualquier etiqueta
+,  juntar etiquetas
+
+[atributo="contenido"]
+
+
+*/
+
+
+a[href^="mailto"]{
+	color: red;
+}
+
+a[href$=".jpg"],a[href$=".png"]{
+	color: yellow;
+}
+
+a[href*="perfil"]{
+	color: black;
+}

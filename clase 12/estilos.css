@@ -1,0 +1,30 @@
+#capa{
+	background: #00f;
+	position: absolute;
+	top: 25%;
+	width: 250px;
+	height: 400px;
+	left: 40%;
+	color: #fff;
+	border-radius: 18px;
+	padding: 17px;
+	/*animation:primeraanimacion 3s infinite alternate;
+	-webkit-animation:primeraanimacion 3s infinite alternate;*/
+}
+
+/*
+@keyframes primeraanimacion{
+	from{
+		left:0%;
+	}
+	25%{background: yellow;top:15%;}
+	to{ left:100%;background: blue;top:85%;}
+}
+
+@-webkit-keyframes primeraanimacion{
+	from{
+		left:0%;
+	}
+	25%{background: yellow;top:15%;}
+	to{ left:100%;background: blue;top:85%;}
+}*/
